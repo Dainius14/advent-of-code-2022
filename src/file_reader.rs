@@ -41,8 +41,6 @@ pub fn read_line_from_single_block(file_name: &str) -> String {
 
     lines.first().unwrap().to_owned()
 }
-
-
 pub struct FileBlock {
     pub lines: Vec<String>,
 }
